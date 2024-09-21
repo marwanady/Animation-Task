@@ -1,0 +1,237 @@
+body {
+  background: radial-gradient(circle at 50% 50%, 
+    #0066cc 10%, 
+    #004c99 30%, 
+    #003366 60%,    #00264d 90%  
+  );
+  background-size: 200% 200%;
+  animation: waveMotion 7s infinite linear;
+  height: 100vh;
+  margin: 0;
+}
+
+@keyframes waveMotion {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+.div1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation-name: swim;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  animation-timing-function: ease-in;
+  transform:matrix(1.00,0.00,0.00,1.00,0,0);
+
+  
+  
+
+}
+
+img {
+  width: 120px;
+  
+}
+
+@keyframes swim {
+  0% {
+    left: 0;
+    transform: rotateY(0deg);
+    
+    
+  }
+
+  20% {
+    left: 240px;
+    top: 170px;
+    
+  }
+
+  50% {
+    left: 600px;
+    top: 600px;
+    
+    /* transform:matrix(-2.00,0.00,-0.00,-2.00,0,0); */
+
+    
+  }
+
+  80% {
+    left: 960px;
+    top: 400px;
+    transform:matrix(2.00,0.00,0.00,2.00,0,0);
+
+    
+  }
+  90%{
+    top: 250px;
+    
+  }
+
+  100% {
+    left: 1400px;
+    transform: rotateY(180deg);
+ 
+    
+ 
+  }
+}
+
+/* //////////// */
+@keyframes swim2 {
+  0% {
+    right: 0;
+    transform: rotateY(0deg);
+    
+    
+  }
+
+  20% {
+    right: 240px;
+    top: 170px;
+    
+  }
+
+  50% {
+    right: 600px;
+    top: 600px;
+    
+    /* transform:matrix(-2.00,0.00,-0.00,-2.00,0,0); */
+
+    
+  }
+
+  80% {
+    right: 960px;
+    top: 400px;
+    transform:matrix(2.00,0.00,0.00,2.00,0,0);
+
+    
+  }
+  90%{
+    top: 250px;
+    
+  }
+
+  100% {
+    right: 1400px;
+    transform: rotateY(180deg);
+ 
+    
+ 
+  }
+}
+
+/* ////////////////// */
+
+.div2 {
+  position: absolute;
+  right: 0 ;
+  top: 130px;
+  animation-name: swim2;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+  animation-timing-function: ease-out;
+  /* animation-direction: reverse; */
+  transform:matrix(1.00,0.00,0.00,1.00,0,0);
+
+}
+
+/* ////////////////// */
+.div3 {
+  position: absolute;
+  left: 0 ;
+  top: 260px;
+  animation-name: swim;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+  animation-timing-function: linear;
+  transform:matrix(1.00,0.00,0.00,1.00,0,0);
+
+}
+/* ////////////////// */
+
+.div4 {
+  position: absolute;
+  right: 0 ;
+  top: 390px;
+  animation-name: swim2;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 14s;
+  animation-timing-function: ease-in-out;
+  /* animation-direction: reverse; */
+  transform:matrix(1.00,0.00,0.00,1.00,0,0);
+
+}
+
+/* ////////////////// */
+.div5 {
+  position: absolute;
+  left: 0 ;
+  top: 520px;
+  animation-name: swim;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 18s;
+  animation-timing-function: linear;
+  transform:matrix(1.00,0.00,0.00,1.00,0,0);
+
+}
+/* ////////////////// */
+
+.div6 {
+  position: absolute;
+  right: 0 ;
+  top: 650px;
+  animation-name: swim2;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 22s;
+  animation-timing-function: ease;
+  /* animation-direction: reverse; */
+  transform:matrix(1.00,0.00,0.00,1.00,0,0);
+
+}
+
+/* ////////////////// */
+.div7 {
+  position: absolute;
+  left: 0 ;
+  top: 780px;
+  animation-name: swim;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 26s;
+  animation-timing-function: linear;
+  transform:matrix(1.00,0.00,0.00,1.00,0,0);
+
+}
+/* ////////////////// */
+
+.div8 {
+  position: absolute;
+  right: 0 ;
+  top: 910px;
+  animation-name: swim2;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 30s;
+  animation-timing-function: linear;
+  /* animation-direction: reverse; */
+  transform:matrix(1.00,0.00,0.00,1.00,0,0);
+
+}
+
+/* ////////////////// */
